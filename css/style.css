@@ -1,0 +1,124 @@
+/* 
+font-family: 'Roboto', sans-serif; 
+*/
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #F7F7F7;
+}
+
+.header__title {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d1d1fc9;
+}
+.first-page{
+  background-image: url(../images/backgroundImg.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainLogo {
+  width: 176px;
+}
+.dropdown-menu{
+  background-color: #3f3e3e;
+}
+.dropdown-item{
+  color: #fff;
+  font-size: 14px;
+}
+.line{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.main_hero_title {
+  display: flex;
+  height: 100vh;
+  align-content: flex-end;
+  align-items: center;
+  max-width: 1041px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue';
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 0.276267px;
+}
+.sub-container{
+  display: flex;
+  background-color: #F7F7F7;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 334px;
+  height: auto;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 22px;
+  margin: 20px;
+  padding: 20px;
+}
+.aboutBtn{
+  margin-top: 30px;
+  color: black;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  
+}
+.wrapper{
+  max-width: 1270px;
+  margin: 0 auto;
+}
+.historyLogo{
+  margin-top: 30px;
+  text-align: center;
+  align-self: center;
+  font-size: 44px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #fff;
+}
+.history{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  min-height: 100vh;
+}
+.historyAbout{
+  max-width: 914px;
+  height: 160px;
+  font-size: 24px;
+}
+.historyWrapper{
+  background-image: url(../images/Mask\ Group\ \(3\).png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sliderWrapper{
+  background-color: #424245;
+}
+.news{
+  margin: 100px 0;
+  color: #ffffff;
+}
+.footerContainer{
+  background-color: #F7F7F7;
+}
+@media all and (max-width: 850px){
+  h1{
+    font-size: 25px;
+  }
+  .historyAbout{
+    font-size: 16px;
+  }
+}
